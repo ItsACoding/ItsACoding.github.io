@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width,intial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+     <h1 class="title">Welcome to Katik</h1>
+     <p class="subtitle">Hai Sobat, Selamat Datang di Katik :]</p>
+     <p class="subtitle">Sebuah Web App Sederhana Yang Berfungsi Untuk Menghitung Luas Dan Keliling Bangun Datar</p>
+     <header>
+        <nav>
+         <div class="menu">
+             <a href="#triangle" onclick="goBack()">Segitiga</a>
+             <a href="#jajargenjang" class="menu-triangle">Jajargenjang</a>
+         </div> 
+        </nav>
+     </header>
+    <main>
+        <section id="jajargenjang">
+            <div class="card">
+                <div>
+                    <h2 style="text-align: center;" class="judul3">Luas Jajargenjang</h2>
+                </div>
+                <img src="assets/jajargenjangpicture.png" alt="">
+                <div>
+                    <h6>Rumus Luas</h6>
+                    <p>L=A x T</p>
+                </div>
+                <div>
+                    <p>di mana:</p>
+                    <p>A = Panjang Alas</p>
+                    <p>T = Tinggi</p>
+                </div>
+                <div class="form-hitung3">
+                 <h1>Hitung Luas Segitiga</h1>
+                 <form action="" class="form-jajargenjang3">
+                    <input id="alas-jajargenjang3" type="number" name="alas-jajargenjang3">
+                    <input id="tinggi-jajargenjang3" type="number" name="tinggi-jajargenjang3">
+                    <span id="cara3"></span>
+                    <span id="cara33"></span>
+                    <span id="demo3"></span>
+                    <button type="submit" class="button-jajargenjang3" onclick="calculatejajargenjang3()">Hitung</button>
+                    <button class="reset-button" onclick="reset3">Reset</button>
+                 </form>
+                </div>
+            </div>
+        </section>
+        <section id="jajargenjang">
+            <div class="card">
+                <div>
+                    <h2 style="text-align: center;" class="judul4">Keliling Jajargenjang</h2>
+                </div>
+                <img src="assets/jajargenjangpicture.PNG" alt="">
+                <div>
+                    <h6>Rumus Keliling</h6>
+                    <p>K = 2 x (A + B)</p>
+                </div>
+                <div>
+                    <p>di mana:</p>
+                    <p>A = Panjang Alas</p>
+                    <p>B = Panjang Sisi Miring</p>
+                </div>
+                <div class="form-hitung4">
+                 <h1>Hitung Luas Segitiga</h1>
+                 <form action="" class="form-jajargenjang4">
+                    <input id="alas-jajargenjang4" type="number" name="alas-jajargenjang4">
+                    <input id="tinggi-jajargenjang4" type="number" name="tinggi-jajargenjang4">
+                    <span id="cara4"></span>
+                    <span id="cara44"></span>
+                    <span id="demo4"></span>
+                    <button type="submit" class="button-jajargenjang4" onclick="calculatejajargenjang4()">Hitung</button>
+                    <button class="reset-button" onclick="reset4">Reset</button>
+                 </form>
+                </div>
+            </div>
+        </section>
+     </main>
